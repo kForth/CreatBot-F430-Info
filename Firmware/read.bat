@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\avrdude" -C "C:\Program Files (x86)\Arduino\hardware\tools\avr\etc\avrdude.conf" -v -p atmega2560 -c wiring -P COM4 -b 115200 -D -U flash:r:flash.hex:i -U eeprom:r:eeprom.hex:i
+pause
